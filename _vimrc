@@ -7,7 +7,8 @@ set imsearch=2 iminsert=2
 vnoremap < <gv 
 vnoremap > >gv 
 set ignorecase smartcase
-colorscheme railscasts
+set guifont=Consolas:h10
+colorscheme darkblue2
 
 command Txml set ft=xml | execute "%!tidy -q -i -utf8 -m -w 0 -xml"
 command Thtml set ft=html | execute "%!tidy -q -i -utf8 -m -w 0 -html"
