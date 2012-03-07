@@ -7,7 +7,7 @@ set imsearch=2 iminsert=2
 vnoremap < <gv 
 vnoremap > >gv 
 set ignorecase smartcase
-set guifont=Consolas:h10
+set guifont=DejaVu_Sans_Mono:h10
 colorscheme darkblue2
 
 command Txml set ft=xml | execute "%!tidy -q -i -utf8 -m -w 0 -xml"
