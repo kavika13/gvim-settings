@@ -6,4 +6,4 @@ I am using the following extra scripts and tools:
 - http://ctags.sourceforge.net/
 - https://github.com/xolox/vim-easytags
 - http://www.vim.org/scripts/script.php?script_id=625
-
+- http://www.vim.org/scripts/script.php?script_id=39
