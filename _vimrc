@@ -10,6 +10,10 @@ set ignorecase smartcase
 set guifont=DejaVu_Sans_Mono:h10
 colorscheme darkblue2
 
+" FROM http://stackoverflow.com/a/934362/232593
+vmap ,c <esc>a--><esc>'<i<!--<esc>'>$
+
+" FROM http://vim.wikia.com/wiki/Cleanup_your_HTML
 command Txml set ft=xml | execute "%!tidy -q -i -utf8 -m -w 0 -xml"
 command Thtml set ft=html | execute "%!tidy -q -i -utf8 -m -w 0 -html"
 
