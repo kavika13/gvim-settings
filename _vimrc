@@ -9,6 +9,10 @@ vnoremap > >gv
 set ignorecase smartcase
 set guifont=DejaVu_Sans_Mono:h10
 colorscheme darkblue2
+set lines=40
+set columns=120
+set colorcolumn=120
+highlight ColorColumn ctermbg=darkgrey guibg=lightgrey
 
 " FROM http://stackoverflow.com/a/934362/232593
 vmap ,c <esc>a--><esc>'<i<!--<esc>'>$
