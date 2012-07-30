@@ -1,1 +1,1 @@
-au BufRead,BufNewFile *.txml set filetype=xml
+au BufRead,BufNewFile *.txml set filetype=xhtml
