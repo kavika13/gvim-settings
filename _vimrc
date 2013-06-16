@@ -4,14 +4,20 @@ elseif filereadable("$VIM/vimrc")
   source /etc/vimrc
 endif
 
+execute pathogen#infect()
+
+set ignorecase smartcase
+syntax enable
+filetype plugin indent on
+
 set ts=4 sw=4 expandtab
 set backupdir^=$Temp directory^=$Temp
 set backupcopy=yes
 vnoremap < <gv 
 vnoremap > >gv 
-set ignorecase smartcase
 set guifont=DejaVu_Sans_Mono:h10
-colorscheme darkblue2
+set background=light
+colorscheme solarized
 set lines=40
 set columns=120
 set colorcolumn=120
