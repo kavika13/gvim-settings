@@ -1,9 +1,12 @@
-source $VIM/_vimrc
+if filereadable("$VIM/_vimrc")
+  source $VIM/_vimrc
+elseif filereadable("$VIM/vimrc")
+  source /etc/vimrc
+endif
 
 set ts=4 sw=4 expandtab
 set backupdir^=$Temp directory^=$Temp
 set backupcopy=yes
-set imsearch=2 iminsert=2
 vnoremap < <gv 
 vnoremap > >gv 
 set ignorecase smartcase
