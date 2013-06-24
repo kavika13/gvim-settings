@@ -10,6 +10,8 @@ set ignorecase smartcase
 syntax enable
 filetype plugin indent on
 
+set clipboard=unnamed
+set ruler
 set ts=4 sw=4 expandtab
 set backupdir^=$Temp directory^=$Temp
 set backupcopy=yes
